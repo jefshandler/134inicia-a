@@ -1,0 +1,5 @@
+pet_id,category_id,category_name,pet_name,tags,status
+7730507,61,cachorro,Luna,"71,vacinado;72,pequeno porte;73,castrado",available
+7730508,62,gato,Mel,"73,castrado",available
+7730509,63,peixe,Nemo,"3,registrado",pending
+7730544,61,cachorro,Thor,"75,medio porte;76,adestrado",available

@@ -144,7 +144,7 @@ def test_somar_leitura_csv(numero_a, numero_b, resultado_esperado):
     assert obtido ==int(resultado_esperado)
 
 
-@pytest.mark.parametrize('numero_a, numero_b, resultado_esperado',ler_csv('F:\\projetoPython\\134inicial\\vendors\\csv\\massa_teste_subtrair_positivo.csv'))
+@pytest.mark.parametrize('numero_a, numero_b, resultado_esperado', ler_csv('F:\\projetoPython\\134inicial\\vendors\\csv\\massa_teste_subtrair_positivo.csv'))
 def test_subtrair_leitura_csv(numero_a, numero_b, resultado_esperado):
     # 1 - Prepara / Configura
     # 1.1 - Dados de entrada / valores do seu teste /
