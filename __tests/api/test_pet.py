@@ -29,7 +29,7 @@ def test_incluir_pet():
     resultado_obtido = requests.post(
         url=urlbase,
         headers=headers,
-        data=open('F:\\projetoPython\\134inicial\\vendors\\json\\pet2.json')
+        data=open('F:\\projetoPython\\134inicial-a\\vendors\\json\\pet2.json')
 
     )
 
@@ -60,7 +60,7 @@ def test_incluir_pet():
         resultado_obtido = requests.post(
             url=urlbase,
             headers=headers,
-            data=open('F:\\projetoPython\\134inicial\\vendors\\json\\pet1.json')
+            data=open('F:\\projetoPython\\134inicial-a\\vendors\\json\\pet1.json')
 
         )
 
@@ -134,7 +134,7 @@ def teste_alterar_pet():
     resultado_obtido = requests.put(
         url=urlbase,
         headers=headers,
-        data=open('F:\\projetoPython\\134inicial\\vendors\\json\\pet3.json')
+        data=open('F:\\projetoPython\\134inicial-a\\vendors\\json\\pet3.json')
     )
 
     # 3 Parte
@@ -180,7 +180,7 @@ def teste_excluir_pert():
 
 
 @pytest.mark.parametrize('pet_id,category_id,category_name,pet_name,tags_id,tags_name,status',ler_csv(
-'F:\\projetoPython\\134inicial\\vendors\\csv\\massa_incluir_pet.csv'))
+'F:\\projetoPython\\134inicial-a\\vendors\\csv\\massa_incluir_pet.csv'))
 def teste_incluir_pet_em_massa(pet_id, category_id, category_name, pet_name, tags_id, tags_name, status):
     # 1 configura
     # 1.1 dados de entrada
